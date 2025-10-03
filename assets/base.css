@@ -37,3 +37,33 @@ background-color: #08D15F;
     width: calc(100% - 320px);
     margin: auto;
 }
+.test-white{
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.g-1{
+gap: 10px;
+}
+.g-2{
+gap: 20px;
+}
+.g-3{
+gap: 30px;
+}
+.g-4{
+gap: 40px;
+}
+.g-15{
+gap: 15px;
+}
+.g-25{
+gap:25px;
+}
+.g-35{
+gap: 35px;
+}
