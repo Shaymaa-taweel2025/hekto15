@@ -28,6 +28,7 @@ body {
 .search form {
     border: 3px solid #E7E6EF;
     border-radius: 5px;
+    display: flex;
 }
 
 .search input {
@@ -47,7 +48,7 @@ body {
 @media screen and (max-width:1200px) {
 
     .list,
-    .search {
+    .header.search {
         display: none;
     }
 
@@ -59,21 +60,43 @@ body {
 /*end header*/
 
 /*start footer*/
-footer{
+footer {
     background-color: #EEEFFB;
     padding: 50px 0;
 }
-.footer a ,.adress-info{
+
+.footer a,
+.adress-info {
     color: #8A8FB9;
 }
-.footer-item{
-    gap: 45px;
+
+.footer .row {
+    gap: 30px;
 }
-.footer .left-side{
+
+.footer .left-side {
+    gap: 35px;
+    align-items: flex-start;
+    width: calc((100% - 30px) /2);
+}
+
+.footer .right-side {
+    width: calc((100% - 30px) /2);
+}
+
+.footer .right-side .row {
     gap: 35px;
     align-items: flex-start;
 }
-.footer .right-side{
-    width: 60%;
+
+.footer-item {
+    gap: 45px;
+    width: calc((100% - 70px) /3);
 }
+@media screen and (max-width:992px) {
+   .footer .left-side ,.footer .right-side{
+    width: 100%;
+   }
+}
+
 /*end footer*/
