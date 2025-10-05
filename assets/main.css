@@ -48,7 +48,7 @@ body {
 @media screen and (max-width:1200px) {
 
     .list,
-    .header.search {
+    .header .search {
         display: none;
     }
 
@@ -59,11 +59,62 @@ body {
 
 /*end header*/
 
+/*start Nweslater*/
+.newslater{
+    background-image: url("./img/public/Rectangle\ 102.webp");
+    padding: 175px 0;
+    text-align: center;
+}
+.newslater h2{
+    margin-bottom:38px ;
+    color: #151875;
+    font-size: 35px;
+    font-family: Josefin Sans;
+    line-height: 155%;
+    letter-spacing: 1.5%;
+   
+}
+.shop-btn{
+    transition:all .5s ;
+}
+.shop-btn:hover{
+background-color: #151875;
+}
+/*end Nweslater*/
+
+/*start clients*/
+.clients {
+  
+    padding: 50px 0;
+  text-align: center;
+}
+.clients .row{
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x:auto ;
+}
+.clients .logo{
+    width: calc((100% - 60px) /5);
+}
+
+.clients img{
+   width: 100%;
+}
+@media screen and (max-width:900px) {
+    .clients .logo{
+        width: calc((100% - 30px) /3);
+    }
+}
+
+
+/*end clients*/
+
 /*start footer*/
 footer {
     background-color: #EEEFFB;
     padding: 50px 0;
 }
+
 
 .footer a,
 .adress-info {
@@ -93,9 +144,30 @@ footer {
     gap: 45px;
     width: calc((100% - 70px) /3);
 }
+
 @media screen and (max-width:992px) {
-   .footer .left-side ,.footer .right-side{
+
+    .footer .left-side,
+    .footer .right-side {
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+   .footer .right-side .row{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+   } 
+   .footer-item{
     width: 100%;
+   }
+   .footer-item nav a{
+    display: block;
+    margin-bottom: 8px;
+   }
+   .footer-item h2{
+    font-size: 18px;
+    margin-bottom: 10px;
    }
 }
 

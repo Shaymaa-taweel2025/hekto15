@@ -27,16 +27,19 @@ background-color: var(--primary);
 .btn-success{
 background-color: #08D15F;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:center;
+    align-items:flex-start;
 }
 .container{
-    width: calc(100% - 320px);
-    margin: auto;
+   width: calc(100% - 320px);
+   margin: auto;
 }
+
+
 @media screen and (max-width:1400px) {
     .container{
 width: calc(100% - 200px);
