@@ -17,6 +17,7 @@ body {
     display: none;
 }
 
+
 .list a {
     color: #0D0E43;
 }
@@ -57,14 +58,50 @@ body {
     }
 }
 
+
+
 /*end header*/
+
+
+/*start hero*/
+.hero{
+    
+    background-image:url("./img/public/hero-image.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+    text-align: center;
+}
+@media screen and (max-width:1024px){
+    .hero{
+        padding: 200px 0;
+    }
+    @media screen and (max-width:768px) {
+       .hero{
+        padding: 150px 0;
+        background-position:top ;
+       } 
+       @media screen and (max-width:480px) {
+        .hero{
+            padding: 100px;
+            background-position: center;
+        }
+       }
+    }
+}
+
+/*end hero*/
+
 
 /* start featured product*/
 .featured-product {
     padding: 50px 0;
 }
+
 .featured-product h2{
     margin-bottom: 30px;
+    color: #1A0B5B;
 }
 
 .featured-product .row {
@@ -72,11 +109,31 @@ body {
     gap: 15px;
 }
 
+.color{
+    width: 20px;
+    height: 6px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.color-one{
+    background-color: #05E6B7;
+}
+.color-two{
+    background-color: #F701A8;
+}
+.color-three{
+    background-color: #00009D;
+    transition: all .6s;
+}
+
 .featured-product .product {
     flex:1 0 100px;
     box-shadow: 0px 4px 4px #00000040;
      border-radius: 4px;
 }
+
 .product .img{
     background-color: #F6F7FB;
     height: 200px;
@@ -91,9 +148,34 @@ body {
     flex-direction: column;
     gap: 10px;
     padding: 10px;
+    transition: all .6s;
+}
+.product-details h3{
+    transition: all .6s;
+}
+.color-info span{
+    transition: all .9s;
 }
 
+.product:hover .product-details{
+    background-color:#2F1AC4 ;
+    color: white;
+    border-radius: 2px;
+}
+
+
+.product:hover .product-details h3{
+    color: white;
+}
+
+.product:hover .product-details .color-three{
+    background-color: #FFEAC1;
+}
+.product:hover .color-info span{
+color: white;
+}
 /*end featured product*/
+
 /*start Nweslater*/
 .newslater {
     background-image: url("./img/public/Rectangle\ 102.webp");

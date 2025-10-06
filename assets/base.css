@@ -94,3 +94,12 @@ gap: 35px;
 .text-right{
     text-align: right;
 }
+.text-primary{
+    color: var(--primary);
+}
+.text-secondary{
+    color: #151875;
+}
+.text-darkblue{
+    color: #1A0B5B;
+}
