@@ -496,6 +496,12 @@ body {
     background-color: white;
     text-align: center;
 }
+.Shopex-Offer .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
 .Shopex-Offer h2{
    margin-bottom: 40px;
     color: #1A0B5B;
@@ -523,10 +529,7 @@ body {
     padding: 0 10px;
 }
 @media screen and(max-width:768px) {
-    .Shopex-Offer .row{
-     
-        margin-bottom: 40px;
-    }
+    
     .Shopex-Offer .row{
        flex-direction: column;
        align-items: center;
@@ -534,6 +537,82 @@ body {
 }
 /*end shopex-offer section*/
 
+
+
+/* start Trending-Products*/
+
+.Trending-Products{
+    padding: 50px 0;
+}
+.Trending-Products h2{
+     margin-bottom: 40px;
+    color: #1A0B5B;
+}
+
+.Trending-Products .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+.Trending-Products .icons{
+   flex: 1 0 250px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.Trending-Products .icons .img{
+    
+     background-color: #F6F7FB;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.Trending-Products .img img{
+    object-fit: contain;
+}
+
+.Trending-Products h3{
+    color: #151875;
+    padding: 20px;
+}
+.Trending-Products span{
+    display: flex;
+   
+}
+.info .past-price{
+    color: #8A8FB9;
+    
+   
+}
+.Trending-Products .price{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 15px;
+    gap: 20px;
+}
+.Trending-Products .past-price{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end Trending-Products*/
 
 
 
