@@ -280,12 +280,6 @@ body {
 }
 
 
-
-
-
-
-
-
 .featured-product .product {
     flex: 1 0 250px;
     box-shadow: 0px 4px 4px #00000040;
@@ -427,58 +421,11 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-/*.Leatest-Products .product .img{
-    background-color: #F6F7FB;
-    width: 100%;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 4px;
-    padding: 0;
-}*/
 .Leatest-Products .product .img img{
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-
-
-
-/*.Leatest-Products .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: start;
-    gap: 30px;
-
-}*/
-
-/*.Leatest-Products .product {
-
-    box-shadow: 0px 4px 4px #00000040;
-    border-radius: 4px;
-    transition: 0.5s;
-
-}*/
-
-
-/*.product .img {
-    background-color: #F6F7FB;
-    height: 200px;
-    padding: 20px;
-
-}*/
 
 .Leatest-Products .leatest-icon{
    position: absolute;
@@ -491,6 +438,8 @@ body {
     transform: translatey(-10px);
     z-index: 3;
 }
+
+
 
 .img .leatest-icon {
     transition: all .8s;
@@ -536,15 +485,54 @@ body {
 }
 
 
-
-
-
 /*end leatest product*/
 
 
 
 
-
+/*  start  shopex-offer section */
+.Shopex-Offer{
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+.Shopex-Offer h2{
+   margin-bottom: 40px;
+    color: #1A0B5B;
+}
+.Shopex-Offer .icons{
+   flex: 1 1 230px;
+   max-width: 230px;
+   background-color: white;
+   
+   padding: 40px 20px;
+    box-shadow: 0 1px 10px rgb(0,0,0,0.1) ;
+    
+}
+.Shopex-Offer .icons img{
+    width: 60px;
+    margin-bottom: 15px;
+}
+.Shopex-Offer .shopex-info h3{
+    margin-bottom: 10px;
+    color:#151875;
+}
+.Shopex-Offer .shopex-info p{
+    color:#8A8FB9;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+@media screen and(max-width:768px) {
+    .Shopex-Offer .row{
+     
+        margin-bottom: 40px;
+    }
+    .Shopex-Offer .row{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+/*end shopex-offer section*/
 
 
 
