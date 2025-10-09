@@ -586,6 +586,7 @@ body {
 }
 .info .past-price{
     color: #8A8FB9;
+    text-decoration: line-through;
     
    
 }
@@ -672,6 +673,76 @@ body {
 
 
 /*end clients*/
+
+
+
+/*start leatest blog*/
+.Leatest-Blog{
+    padding: 50px 0;
+}
+.Leatest-Blog h2{
+     margin-bottom: 40px;
+    color: #1A0B5B;
+}
+.Leatest-Blog .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    
+}
+.Leatest-Blog .room-img{
+      flex: 1 0 200px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.Leatest-Blog .img .room-img{
+       background-color: #F6F7FB;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.room-details span{
+    
+   color: #151875;
+font-size: 14px;
+    
+   
+}
+ .Leatest-Blog .room-details span{
+    margin-right: 10px;
+    font-size: 14px;
+
+}
+
+.room-info h3{
+    color: #fb2e86;
+}
+.room-info p{
+    color: #8A8FB9;
+    padding: 12px 0;
+    
+}
+.room-info a{
+    color: #fb2e86;
+    text-decoration: underline;
+}
+
+.room-details .room-info{
+    padding: 20px;
+}
+/*end leatest blog*/
+
+
+
+
+
+
+
+
 
 /*start footer*/
 footer {
